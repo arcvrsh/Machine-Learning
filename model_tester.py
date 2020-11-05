@@ -1,7 +1,7 @@
 import pickle as pkl
 import numpy as np
 
-path = '../../models/slr_hpvsprice_predictor.pkl'
+path = 'models/slr_hpvsprice_predictor.pkl'
 with open(path,'rb') as f:
     model = pkl.load(f)
 
